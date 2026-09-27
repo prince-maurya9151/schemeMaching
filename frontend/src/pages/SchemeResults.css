@@ -1,0 +1,92 @@
+.resultsContainer {
+  min-height: 100vh;
+  background: #f9fafb;
+}
+
+.resultsContent {
+  max-width: 800px;
+  margin: 2.5rem auto;
+  padding: 0 1rem;
+}
+
+.resultsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.resultsTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.backButton {
+  background: none;
+  border: none;
+  color: #2563eb;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.backButton:hover {
+  text-decoration: underline;
+}
+
+.noSchemes {
+  color: #6b7280;
+}
+
+.schemesList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.schemeCard {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  border-left: 4px solid #22c55e;
+}
+
+.schemeTitle {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.schemeDescription {
+  color: #4b5563;
+  margin-top: 0.5rem;
+}
+
+.schemeEligibility {
+  background: #f0fdf4;
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+  margin-top: 0.75rem;
+  color: #15803d;
+  font-size: 0.9rem;
+}
+
+.schemeLink {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.schemeLink:hover {
+  text-decoration: underline;
+}
+
+
+.schemeDocuments {
+  margin-top: 0.75rem;
+  color: #6b7280;
+  font-size: 0.9rem;
+  background: #f9fafb;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+}
